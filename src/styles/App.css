@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.App{
+    background-color: black;
+    background-image: url('../images/backgroundmatrix.png');
+    /*background-clip: border-box;
+    background-origin: border-box;
+    background-size: cover, contain;*/
+    background-position: center;
+    background-repeat: round;
+    background-origin: border-box;
+}
+
+h1 {
+text-align: center;
+color: greenyellow;
+/*letter-spacing: 1.5em
+text-align: left; tambien text-align-last:
+text-transform: capitalize;*/
+text-decoration: underline;
+font-family: 'Zen Dots', cursive;
+}
+
+h4 {
+padding-top: 7px;
+color: greenyellow;
+font-family: 'Zen Dots', cursive;
+}
+
+.viewtrailer{
+    min-height: 700px;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Zen Dots', cursive;
+    
+}
+
+
+.boton{
+    background-color: #0F1014;
+    color:white;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10%;
+    box-shadow: 0 0 4px 4px whitesmoke;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.boton:hover{
+background-color: white;
+color: black;
+box-shadow: 0 0 4px 4px black;
+}
+
+.reproductor{
+    width: 100%;
+    height: 600px;
+}
+
+
+img {
+    border: 4px solid white;
+    border-radius: 5%;
+    box-shadow: 0 0 10px 10px greenyellow;
+}
+
+.search {
+    margin-right: 5px;
+    height: 35px;
+    border:solid 4px greenyellow ;
+    border-radius: 5px;
+}
+
+
+
+
+
